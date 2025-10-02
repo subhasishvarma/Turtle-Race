@@ -5,37 +5,33 @@ Place your bet on a turtle and see if you win — now with a popup result dialog
 
 ---
 
-## 📸 Demo
-When you run the program:
-1. Enter the number of turtles in the race (2–10).
-2. Choose your bet (pick a turtle by its number).
-3. Watch them race across the screen.
-4. Get a popup message box showing if you **won or lost**!
+## 📸 How It Works
+1. Enter the number of turtles in the race (between 2 and 10).
+2. Choose your bet (pick a turtle number).
+3. Watch the colorful turtles race across the screen.
+4. Get a popup message box showing if your bet was **successful or not**.
 
 ---
 
 ## 🚀 Features
-- Random colors assigned to each turtle.
-- Randomized movement speeds to make each race unique.
-- User can **place bets** before the race starts.
-- Clean popup message (using Tkinter) to display results.
-- Interactive Turtle graphics window.
+- Random colors for each turtle.  
+- Randomized step sizes to make every race different.  
+- Place bets interactively using input dialogs.  
+- Popup (Tkinter) result notification.  
+- Uses only Python’s built-in modules (`turtle`, `random`, `tkinter`).  
 
 ---
 
 ## 🛠 Requirements
 - Python 3.x  
-- No external libraries needed (uses built-in `turtle`, `random`, and `tkinter`).
+- No extra libraries needed.  
 
 ---
 
-## ▶️ How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
+## ▶️ Run the Game
+Clone the repo and run the script:
 
-2.Run the script:
-    ```bash
-    python turtle_race.py
-
+```bash
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd <your-repo-name>
+python turtle_race.py
